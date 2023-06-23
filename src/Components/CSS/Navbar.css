@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+/* 
+
+#3C486B
+#F0F0F0
+#F9D949
+#F45050
+    
+    
+    
+    
+    */
+.aStyle {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .navStyle {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #3C486B;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;  }
+  .logo{
+    font-size: 25px;
+  }
+  
+  .menuItems {
+    display: flex;
+  }
+  .aStyle:hover{
+    color: #F45050;
+  }
+  .navStyle .aStyle.active {
+    color: #f45050;
+  }
+  .menuItems.open {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .toggleButton {
+    display: none;
+  }
+  
+  @media (max-width: 480px) {
+    .navStyle {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .navStyle > div {
+      width: 100%;
+    }
+  
+    .navStyle > div:first-child {
+      margin-bottom: 10px;
+    }
+  
+    .aStyle {
+      margin: 10px;
+      display: flex;
+    }
+  
+    .toggleButton {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-size: 25px;
+    }
+  
+    .menuItems {
+      display: none;
+    }
+  
+    .navStyle.menuOpen .menuItems {
+      display: flex;
+    }
+  }
+  

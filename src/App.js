@@ -1,10 +1,13 @@
 import React from "react";
-import Status from "./Components/Status";
+import AllRoutes from "./Components/Routes/AllRoutes";
+import Navbar from "./Components/Routes/Navbar";
 
 const App = () => {
   return (
     <div>
-      <Status />
+      <Navbar />
+      <AllRoutes />
+     
     </div>
   )
 };
