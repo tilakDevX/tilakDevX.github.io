@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import "../CSS/Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark, faCode } from "@fortawesome/free-solid-svg-icons";
+import DownloadBtn from "../SubComponents/DownloadBtn";
 
 function Navbar(props) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,14 +13,14 @@ function Navbar(props) {
   };
 
   return (
-    <header  className={`navStyle ${isMenuOpen ? "menuOpen" : ""}`}>
+    <header id="nav-menu"  className={`navStyle ${isMenuOpen ? "menuOpen" : ""}`}>
       <div>
         <Link to="/" className="aStyle logo" >
-          <FontAwesomeIcon icon={faCode} />{" "}
+          <FontAwesomeIcon icon={faCode} /> 
         </Link>
       </div>
 
-      <div id="nav-menu" className={`menuItems ${isMenuOpen ? "open" : ""}`}>
+      <div  className={`menuItems ${isMenuOpen ? "open" : ""}`}>
         <NavLink  to="/" id="home" className="aStyle" >
           HOME
         </NavLink>
@@ -35,6 +36,7 @@ function Navbar(props) {
         <NavLink to="/contact" id="contact" className="aStyle"  >
           CONTACT
         </NavLink>
+        <DownloadBtn />
       </div>
 
       <button className="toggleButton" onClick={handleToggleMenu}>

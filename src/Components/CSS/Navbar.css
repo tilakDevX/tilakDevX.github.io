@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
-
+ 
 /* 
 
 #3C486B
@@ -13,7 +11,7 @@
     
     */
 .aStyle {
-    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     text-decoration: none;
     margin-left: 20px;
     color: white;

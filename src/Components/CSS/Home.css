@@ -1,3 +1,8 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300&display=swap');
+ */
+
+
+
 .home{
     /* color: #fff; */
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(../../img/bg.svg);
@@ -7,4 +12,29 @@
     max-height: 120rem;
     position: relative;
     padding-top: 10px;
+    display: flex;
+}
+
+.homeTitle{
+    /* background-color: red; */
+    width: 70%;
+    margin: auto;
+}
+.homeTitle h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    word-spacing: 8px;
+}
+
+.homeTag1{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.homeTag2{
+    font-weight: 300;
+    
+    width: 65%;
+    margin: auto;
 }
