@@ -59,7 +59,7 @@
   #contact{
     margin-right: 25px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
     .navStyle {
       flex-direction: column;
       height: auto;
