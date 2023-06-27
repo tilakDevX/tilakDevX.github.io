@@ -1,5 +1,10 @@
 import React from "react";
 import "../CSS/Home.css";
+import { Container } from "@chakra-ui/layout";
+import { Link } from "react-router-dom";
+import Btn from "../SubComponents/Btn";
+import DownloadBtn from "../SubComponents/DownloadBtn";
+ 
 
 function Home(props) {
   return (
@@ -13,6 +18,10 @@ function Home(props) {
           creating <br />
           comprehensive solutions for websites and web applications.
         </p>
+      <Container>
+       <Link to= "/project"> <Btn text = "Project"  /></Link>
+       <DownloadBtn />
+      </Container>
       </div>
     </section>
   );

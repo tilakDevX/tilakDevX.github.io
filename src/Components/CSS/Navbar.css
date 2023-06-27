@@ -15,7 +15,7 @@
     text-decoration: none;
     margin-left: 20px;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
   }
   
   .navStyle {
@@ -28,12 +28,12 @@
     width: 100%;
     z-index: 1;
     top: 0;
-    height: 50px;
+    height: 80px;
     text-align: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;  }
   .logo{
-    font-size: 25px;
+    font-size: 30px;
   }
   
   .menuItems {
@@ -56,6 +56,9 @@
     display: none;
   }
   
+  #contact{
+    margin-right: 25px;
+  }
   @media (max-width: 480px) {
     .navStyle {
       flex-direction: column;
