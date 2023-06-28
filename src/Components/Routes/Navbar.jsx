@@ -21,7 +21,7 @@ function Navbar(props) {
       </div>
 
       <div  className={`menuItems ${isMenuOpen ? "open" : ""}`}>
-        <NavLink  to="/" id="home" className="aStyle" >
+        <NavLink  to="/" id="home"  className="aStyle" >
           HOME
         </NavLink>
         <NavLink to="/about" id="about" class="about section" className="aStyle"  >

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills(props) {
     return (
-        <div>
+        <div className='nav-link skills'>
            <h2>Skills Page</h2>
 
         </div>

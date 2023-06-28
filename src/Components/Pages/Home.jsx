@@ -8,12 +8,12 @@ import DownloadBtn from "../SubComponents/DownloadBtn";
 
 function Home(props) {
   return (
-    <section className="home">
+    <section className="nav-link home" >
       <div className="homeTitle">
-        <h2>Welcome to the world of Tilak,</h2>
+        <h2  id="user-detail-name">Welcome to the world of Tilak,</h2>
 
         <p className="homeTag1">Your versatile Fullstack Web Developer!</p>
-        <p className="homeTag2">
+        <p id="user-detail-intro" className="homeTag2">
           As a fresh and ambitious Full Stack Web Developer, I am dedicated to
           creating <br />
           comprehensive solutions for websites and web applications.
