@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact(props) {
     return (
-        <div className='nav-link contact'>
+        <div id="contact" >
            <h2>Contact Page</h2>
             
         </div>

@@ -21,19 +21,19 @@ function Navbar(props) {
       </div>
 
       <div  className={`menuItems ${isMenuOpen ? "open" : ""}`}>
-        <NavLink  to="/" id="home"  className="aStyle" >
+        <NavLink  to="/"  className="nav-link home aStyle" >
           HOME
         </NavLink>
-        <NavLink to="/about" id="about"   className="aStyle"  >
+        <NavLink to="/about"   className="nav-link about aStyle"   >
           ABOUT
         </NavLink>
-        <NavLink to="/skills" id="skills" className="aStyle"  >
+        <NavLink to="/skills"  className="nav-link skills aStyle"  >
           SKILLS
         </NavLink>
-        <NavLink to="/project" id="projects" className="aStyle"  >
+        <NavLink to="/project"  className="nav-link projects aStyle"  >
           PROJECT
         </NavLink>
-        <NavLink to="/contact" id="contact" className="aStyle"  >
+        <NavLink to="/contact"  className="nav-link contact aStyle"  >
           CONTACT
         </NavLink>
         <DownloadBtn />

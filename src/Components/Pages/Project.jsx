@@ -2,7 +2,7 @@ import React from 'react';
 
 function Project(props) {
     return (
-        <div className='nav-link projects'>
+        <div id="projects" className=''>
              <h2>Project Page</h2>
 
         </div>

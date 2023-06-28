@@ -8,7 +8,7 @@ import DownloadBtn from "../SubComponents/DownloadBtn";
 
 function Home(props) {
   return (
-    <section className="nav-link home" >
+    <section id="home" className="Home" >
       <div className="homeTitle">
         <h2  id="user-detail-name">Welcome to the world of Tilak,</h2>
 
