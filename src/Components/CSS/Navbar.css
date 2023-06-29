@@ -56,7 +56,7 @@
     display: none;
   }
   
-  #contact{
+ .contact{
     margin-right: 25px;
   }
   @media (max-width: 768px) {
