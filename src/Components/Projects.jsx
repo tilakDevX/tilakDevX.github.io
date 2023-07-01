@@ -42,7 +42,7 @@ const Projects = () => {
 
       name: "My Portfolio",
       description:
-        "",
+        "This mine portfolio site, it's build using reactjs and one of the famous UI library chakra UI",
       image: "https://i.imgur.com/oBpuFxQ.png",
       techStack: ["REACT", "Chakra-UI"],
       github: "https://github.com/DeveloperTilak/DeveloperTilak.github.io",

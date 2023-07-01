@@ -14,7 +14,9 @@ import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import Typewriter from "typewriter-effect";
-import DownloadBtn from "./SubComponents/DownloadBtn";
+// import DownloadBtn from "./SubComponents/DownloadBtn";
+import tilak_resume from "../img/Tilak's_Resume.pdf"
+
 
 const Home = () => {
   return (
@@ -58,7 +60,7 @@ const Home = () => {
           comprehensive solutions for websites and web applications.
           </Text>
           <Flex gap={"8"} align="center" m={"auto"} p= "50px">
-            <Button
+          <Button
               id="resume-button-2"
               as={"a"}
               display={{ base: "none", md: "inline-flex" }}
@@ -69,7 +71,17 @@ const Home = () => {
                 bg: "blue.600",
               }}
             >
-              <DownloadBtn />
+              <Link
+                id="resume-link-2"
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1DJG7AoC-UQC0BGt_QEPDDj6bq1ihGpNZ/view"
+                  )
+                }
+                href={tilak_resume}
+                target={"_blank"}
+                download
+              >Resume</Link>
             </Button>
 
             <Flex gap="3">

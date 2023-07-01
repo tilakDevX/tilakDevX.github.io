@@ -1,4 +1,4 @@
-import { Box, Button, Flex, useColorMode, Link } from "@chakra-ui/react";
+import { Box, Button, Flex, useColorMode, Link, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
@@ -6,7 +6,9 @@ import { Helmet } from "react-helmet";
 import Sidebar from "./Sidebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-import DownloadBtn from "./SubComponents/DownloadBtn";
+// import DownloadBtn from "./SubComponents/DownloadBtn";
+import tilak_resume from "../img/Tilak's_Resume.pdf"
+import { AiOutlineDownload } from "react-icons/ai";
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -83,12 +85,32 @@ const Navbar = () => {
             >
               contact
             </Link>
-            <Link id="resume-button-1"
-              className="nav-link resume">
-            
-            
-            <DownloadBtn />
-            </Link>
+            <Button
+              width="max-content"
+              colorScheme={"teal"}
+              id="resume-button-1"
+              className="nav-link resume"
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1DJG7AoC-UQC0BGt_QEPDDj6bq1ihGpNZ/view",
+                  "_blank"
+                );
+              }}
+            >
+              <a
+                id="resume-link-1"
+                href={tilak_resume}
+                target="_blank"
+                download="tilak_resume.pdf"
+              >
+                Resume
+              </a>
+              <Text as="span" ml={"2"}>
+                <AiOutlineDownload fontSize={"1.2rem"} />
+              </Text>
+            </Button>
+
+
             <Button onClick={toggleColorMode}>
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
