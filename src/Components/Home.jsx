@@ -75,7 +75,7 @@ const Home = () => {
                 id="resume-link-2"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1DJG7AoC-UQC0BGt_QEPDDj6bq1ihGpNZ/view"
+                    "https://drive.google.com/file/d/1YOIjMk385ceQrk1SVByoBmr_xMguB6Jd/view?usp=sharing"
                   )
                 }
                 href={tilak_resume}
