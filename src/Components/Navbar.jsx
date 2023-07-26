@@ -98,7 +98,7 @@ const Navbar = () => {
               className="nav-link resume"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1YOIjMk385ceQrk1SVByoBmr_xMguB6Jd/view?usp=sharing",
+                  "https://drive.google.com/file/d/1GoQaFdfQe6Cr0pgpfq_7przCY7KVlUA_/view?usp=drive_link",
                   "_blank"
                 );
               }}
