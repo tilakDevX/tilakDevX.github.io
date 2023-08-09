@@ -7,6 +7,17 @@ const Projects = () => {
     {
       id: 1,
 
+      name: "Hand-Sanitizer",
+      description:
+        "Discover a perfect blend of hygiene and self-care at our Hand-Sanitizer website. Explore premium hand sanitizers alongside skin care essentials for a complete wellness experience.",
+      image: "https://i.imgur.com/emwD4zX.png",
+      techStack: ["HTML", "CSS", "JS", "ReactJs", "React-Router", "React-Router-Dom", "Chakra-UI","NodeJs","ExpressJs", "MongoDB","JWT"],
+      github: "https://github.com/DeveloperTilak/frontend_hand_sanitizer",
+      demo: "https://hand-sanitizer-mern.netlify.app/",
+    },
+    {
+      id: 2,
+
       name: "BlueMercury",
       description:
         "Bluemercury was founded to help people discover their uniqueness, shining a light on the things that make them delightfully, wonderfully distinctive. We pioneered a client-first service model that emphasized hyperpersonalized, high-quality beauty interactions.",
@@ -16,7 +27,7 @@ const Projects = () => {
       demo: "https://cloneblumercury.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
 
       name: "BIALETTI",
       description:
@@ -27,7 +38,7 @@ const Projects = () => {
       demo: "https://bialetticlone.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
 
       name: "Drum Keyboard",
       description:
@@ -38,7 +49,7 @@ const Projects = () => {
       demo: "https://developertilak.github.io/drum-sound/",
     },
     {
-      id: 4,
+      id: 5,
 
       name: "My Portfolio",
       description:
