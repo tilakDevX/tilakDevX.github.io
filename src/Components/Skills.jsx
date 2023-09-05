@@ -113,11 +113,6 @@ const Skills = () => {
     },
     {
       id: 7,
-      name: "TypeScript",
-      image: "https://img.icons8.com/color/256/typescript.png",
-    },
-    {
-      id: 8,
       name: "Github",
       image: "https://img.icons8.com/bubbles/256/github.png",
     },
