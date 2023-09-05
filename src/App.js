@@ -21,6 +21,7 @@ function App() {
         <Projects />
         <Github />
       </Box>
+      
       <Contact />
     </Box>
   )
