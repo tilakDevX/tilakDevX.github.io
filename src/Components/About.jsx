@@ -73,7 +73,7 @@ const About = () => {
               textAlign="justify"
             >
               Currently, I have expertise in MERN, C, C++, HTML, CSS,
-              JavaScript, React, MongoDB, Node.js and TypeScript. I also have
+              JavaScript, React, MongoDB, Node.js. I also have
               knowledge of SQL. Looking forward to joining a progressive
               organization with opportunities to work on challenging projects.
               Apart from programming, I enjoy Reading 📚, Workout , listening to
