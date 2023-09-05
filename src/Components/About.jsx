@@ -73,11 +73,10 @@ const About = () => {
               textAlign="justify"
             >
               Currently, I have expertise in MERN, C, C++, HTML, CSS,
-              JavaScript, React, MongoDB, Node.js. I also have
-              knowledge of SQL. Looking forward to joining a progressive
-              organization with opportunities to work on challenging projects.
-              Apart from programming, I enjoy Reading 📚, Workout , listening to
-              Music 🎵
+              JavaScript, React, MongoDB, Node.js. I also have knowledge of SQL.
+              Looking forward to joining a progressive organization with
+              opportunities to work on challenging projects. Apart from
+              programming, I enjoy Reading 📚, Workout , listening to Music 🎵
             </Text>
             <br />
             <br />
@@ -101,16 +100,15 @@ const About = () => {
               fontSize={{ base: "lg", md: "xl" }}
               textAlign={{ base: "center", md: "left", sm: "justify" }}
             >
-             Hey, I'm Tilak Ram from UP Basti, holding a B.Sc. degree in
+              Hey, I'm Tilak Ram from UP Basti, holding a B.Sc. degree in
               Mathematics and Computer Applications.
               <br />
               <br />
               Currently, I have expertise in MERN, C, C++, HTML, CSS,
-              JavaScript, React, MongoDB, Node.js. I also have
-              knowledge of SQL. Looking forward to joining a progressive
-              organization with opportunities to work on challenging projects.
-              Apart from programming, I enjoy Reading 📚, Workout,
-              listening to Music 🎵.
+              JavaScript, React, MongoDB, Node.js. I also have knowledge of SQL.
+              Looking forward to joining a progressive organization with
+              opportunities to work on challenging projects. Apart from
+              programming, I enjoy Reading 📚, Workout, listening to Music 🎵.
               <br />
               <br />
             </Text>
@@ -122,7 +120,6 @@ const About = () => {
             <Image
               className="home-img"
               margin="auto"
-               
               src={myImage}
               width={{ base: "80%", md: "100%" }}
               maxWidth="400px"
