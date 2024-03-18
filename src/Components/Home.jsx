@@ -75,7 +75,7 @@ const Home = () => {
                 id="resume-link-2"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1qm_UjO3fb_k3_19h9_YVrDs6B0UsKs-N/view"
+                    "https://drive.google.com/file/d/1_XCG97-iz7uvq6wj20gfAFjO-xBYOmu1/view"
                   )
                 }
                 href={tilak_resume}
@@ -87,7 +87,7 @@ const Home = () => {
             <Flex gap="3">
               <Link
                 id="contact-linkedin"
-                href="https://www.linkedin.com/in/developer-tilak/"
+                href="https://www.linkedin.com/in/tilak-ram/"
                 isExternal
               >
                 <ImLinkedin fontSize={"1.6rem"} />
