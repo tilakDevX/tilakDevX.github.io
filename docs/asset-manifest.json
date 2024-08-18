@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8489d24c.css",
-    "main.js": "/static/js/main.52a15de5.js",
+    "main.js": "/static/js/main.e8e2d2bf.js",
     "static/js/787.85549821.chunk.js": "/static/js/787.85549821.chunk.js",
     "static/media/heroPic.jpeg": "/static/media/heroPic.600893caf104703ed05a.jpeg",
     "static/media/Tilak's_Resume.pdf": "/static/media/Tilak's_Resume.832df275616d351123d2.pdf",
@@ -11,11 +11,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.8489d24c.css.map": "/static/css/main.8489d24c.css.map",
-    "main.52a15de5.js.map": "/static/js/main.52a15de5.js.map",
+    "main.e8e2d2bf.js.map": "/static/js/main.e8e2d2bf.js.map",
     "787.85549821.chunk.js.map": "/static/js/787.85549821.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8489d24c.css",
-    "static/js/main.52a15de5.js"
+    "static/js/main.e8e2d2bf.js"
   ]
 }
