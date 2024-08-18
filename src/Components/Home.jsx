@@ -87,14 +87,14 @@ const Home = () => {
             <Flex gap="3">
               <Link
                 id="contact-linkedin"
-                href="https://www.linkedin.com/in/tilak-ram/"
+                href="https://www.linkedin.com/in/tilakdevx/"
                 isExternal
               >
                 <ImLinkedin fontSize={"1.6rem"} />
               </Link>
               <Link
                 id="contact-github"
-                href="https://github.com/DeveloperTilak"
+                href="https://github.com/tilakDevX"
                 isExternal
               >
                 <FaGithub fontSize={"1.6rem"} />

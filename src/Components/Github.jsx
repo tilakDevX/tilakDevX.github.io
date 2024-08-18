@@ -21,27 +21,27 @@ const Github = () => {
         gap="7"
       >
         <Box>
-          <Link href="https://github.com/DeveloperTilak"/>
+          <Link href="https://github.com/tilakDevX"/>
           <Image
             id="github-streak-stats"
             width="500px"
-            src="https://github-readme-streak-stats.herokuapp.com?user=DeveloperTilak&theme=dark"
+            src="https://github-readme-streak-stats.herokuapp.com?user=tilakDevX&theme=dark"
           />
         </Box>
         <Box>
-          <Link href="https://github.com/DeveloperTilak"/>
+          <Link href="https://github.com/tilakDevX"/>
           <Image
             id="github-top-langs"
             width="500px"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=DeveloperTilak&layout=compact&theme=dark"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=tilakDevX&layout=compact&theme=dark"
           />
         </Box>
         <Box>
-          <Link href="https://github.com/DeveloperTilak"/>
+          <Link href="https://github.com/tilakDevX"/>
           <Image
             width="500px"
             id="github-stats-card"
-            src="https://github-readme-stats.vercel.app/api?username=DeveloperTilak&count_private=true&show_icons=true&theme=dark"
+            src="https://github-readme-stats.vercel.app/api?username=tilakDevX&count_private=true&show_icons=true&theme=dark"
           />
         </Box>
       </Flex>

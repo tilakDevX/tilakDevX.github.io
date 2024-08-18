@@ -106,7 +106,7 @@ const Contact = () => {
               gap="3px"
             >
               <FaHome />
-              <Text as="b">Basti, UP</Text>
+              <Text as="b">Pune, Maharashtra </Text>
             </Box>
             <a href="tilakram5075@gmail.com">
               <Box
@@ -134,7 +134,7 @@ const Contact = () => {
             >
               <BsGithub />{" "}
               <a
-                href="https://github.com/DeveloperTilak"
+                href="https://github.com/tilakDevX"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -156,7 +156,7 @@ const Contact = () => {
               </a>
             </Box>
             <a
-              href="https://www.linkedin.com/in/developer-tilak/"
+              href="https://www.linkedin.com/in/tilakdevx/"
               target="_blank"
               rel="noreferrer"
             >
