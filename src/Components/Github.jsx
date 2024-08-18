@@ -9,7 +9,7 @@ const Github = () => {
      <Box>
         <Box   width={["330px", "450px", "870px"]} margin="auto" marginBottom="30px">
         <GitHubCalendar
-            username="DeveloperTilak"
+            username="tilakDevX"
             className="react-activity-calendar"
           />
         </Box>
