@@ -43,7 +43,7 @@ export default function Hero() {
                 <ArrowDown size={16} />
                 View My Work
               </Button>
-              <Button href={portfolio.resumeUrl} variant="outline">
+              <Button href={portfolio.resumeUrl} variant="outline" download>
                 <Download size={16} />
                 Download Resume
               </Button>

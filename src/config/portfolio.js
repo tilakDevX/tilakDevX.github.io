@@ -1,6 +1,7 @@
 const portfolio = {
   name: "Tilak Ram",
   shortName: "Tilak",
+  logo: "<Tilak />",
   title: "Full-Stack Developer & AI-Integrated Engineer",
   tagline: "I build production-grade systems — from real-time data pipelines to LLM-powered enterprise tools.",
   location: "Gurgaon, India",
@@ -12,7 +13,7 @@ const portfolio = {
   github: "https://github.com/tilakDevX",
   githubUsername: "tilakDevX",
 
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Tilak_Ram_Full-Stack_AI_Engineer.pdf",
   ogImage: "/og-image.png",
 
   heroEyebrow: "Available for opportunities",
