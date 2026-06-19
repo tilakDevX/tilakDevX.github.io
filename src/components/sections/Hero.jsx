@@ -26,7 +26,12 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <div className="flex-1 text-center lg:text-left">
             <span className="inline-block font-body text-xs font-semibold tracking-[0.2em] text-emerald uppercase mb-4">
-              {portfolio.heroEyebrow}
+              {(() => {
+                const start = new Date(portfolio.careerStartDate)
+                const now = new Date()
+                const years = (now - start) / (365.25 * 24 * 60 * 60 * 1000)
+                return `${years.toFixed(1)} Years Experience`
+              })()} — {portfolio.heroEyebrow}
             </span>
 
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-text-primary leading-[1.1] mb-4">

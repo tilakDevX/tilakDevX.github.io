@@ -16,6 +16,7 @@ const portfolio = {
   resumeUrl: "/Tilak_Ram_Full-Stack_AI_Engineer.pdf",
   ogImage: "/og-image.png",
 
+  careerStartDate: "2023-09", // first job — Sep 2023
   heroEyebrow: "Available for opportunities",
   contactMessage: "Whether you're hiring, have a project in mind, or just want to connect — my inbox is open.",
 

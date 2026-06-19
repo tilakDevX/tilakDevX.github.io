@@ -22,7 +22,7 @@ export default function Footer() {
     <footer className="border-t border-border py-8">
       <div className="max-w-6xl mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="font-body text-sm text-text-secondary">
-          &copy; {new Date().getFullYear()} {portfolio.name}. Built with React + Tailwind.
+          &copy; {new Date().getFullYear()}. Designed &amp; built by Tilak Ram.
         </p>
         <div className="flex items-center gap-4">
           <a href={`mailto:${portfolio.email}`} className="text-text-secondary hover:text-cyan transition-colors" aria-label="Email">
