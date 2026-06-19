@@ -1,0 +1,12 @@
+portfolio-v1-archive
+portfolio-v2
+tilakDevX.github.io
+
+
+
+To generate a quick OG image later, you can use:
+
+canva.com (free, 1200×630 template)
+shots.so (code screenshot styled as OG)
+opengraph.xyz (simple text-based generator)
+Place the final image at public/og-image.png and it'll be picked up automatically.

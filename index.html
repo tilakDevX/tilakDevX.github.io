@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tilak Ram — Full-Stack Developer & AI Engineer</title>
+    <meta name="description" content="Full-Stack Developer with 3+ years building production systems. Python, Django, React, LLM integration. Open to full-time and freelance." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Tilak Ram — Full-Stack Developer & AI Engineer" />
+    <meta property="og:description" content="Building production-grade systems and AI-integrated tools." />
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+      (function(){
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  </body>
+</html>

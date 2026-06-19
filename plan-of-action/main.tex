@@ -1,0 +1,182 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Tilak Ram} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 820-***-**** ~
+    \href{mailto:tilak****@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{tilak******@gmail.com}} ~ 
+  \href{https://www.linkedin.com/in/tilakdevx/}{\raisebox{-0.2\height}{\faLinkedin} LinkedIn} ~
+    \href{https://github.com/tilakDevX}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+    \href{https://tilakdevx.github.io/}{\raisebox{-0.2\height}\faGlobe\ \underline{Portfolio}}
+    \vspace{0pt}
+\end{center}
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{Full-Stack Developer with 3+ years of experience building scalable, production-grade web applications. Delivered a real-time vehicle telematics platform (2,000+ GPS events/sec) and contributed to enterprise compliance and AI-powered solutions. Skilled in Python, Django, React.js, PostgreSQL, Redis, and integrating LLM-powered capabilities into full-stack production systems.}
+\vspace{0pt}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {KPMG India}{Feb 2025 -- Present}
+      {\textbf{Full Stack Developer} $|$ KCRA — KPMG Compliance Reporting Assessor}{Gurgaon, India}
+      \resumeItemListStart
+        \resumeItem{Architected Django/DRF backend with a layered pattern (Controller → Service → Repository) and RBAC across 6 user roles (Super User, Company Admin, CXO, Legal Admin, Auditor, Owner/Escalator chain) in multi-tenant compliance workflows.}
+        \resumeItem{Built async Excel report generation with Celery + Redis, returning HTTP 202 immediately while background workers process 50,000+ records.}
+        \resumeItem{Implemented immutable audit trail using PostgreSQL transactions — every compliance status change recorded atomically with actor, timestamp, and reason across a 3-stage approval chain (Owner → Escalator → Auditor).}
+        \resumeItem{Designed a dual-source LLM-powered chatbot with intent-based routing — Text-to-SQL engine (multi-layer classification, dynamic schema injection, RBAC filters, SQL safety guardrails) for live compliance data queries, and a RAG pipeline for natural language queries over the tool's internal knowledge base.}
+        \resumeItem{Automated nightly compliance deadline checks via Celery Beat and integrated E-sign functionality into document approval workflows; configured Apache2 as a reverse proxy for production deployment.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {AutoPeepal Technologies Pvt. Ltd}{Sep 2023 -- Jan 2025}
+      {\textbf{MERN Stack Developer} $|$ Vehicle Telematics Platform (Wikitrac)}{Pune, India}
+      \resumeItemListStart
+        \resumeItem{Built real-time GPS ingestion pipeline processing 2,000+ events/sec using Apache Kafka with 3 independent consumers: alert detection, live dashboard, and trip logging.}
+        \resumeItem{Designed WebSocket live dashboard (Socket.io + Redis pub/sub) supporting 500+ concurrent users with sub-second location refresh.}
+        \resumeItem{Implemented geofence breach and speed alert system with Redis-cached geofence data, reducing PostgreSQL query load by 80\%.}
+        \resumeItem{Containerised and deployed full stack on DigitalOcean with Docker and Nginx reverse proxy; tuned Kafka consumer parallelism for sustained high throughput.}
+        \resumeItem{Recognised as \textbf{Outstanding Performer} at AutoPeepal Technologies for contributions to the Wikitrac telematics platform.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\vspace{-15pt}
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, JavaScript (ES6+)} \\
+     \textbf{Backend}{: Django, Django REST Framework, FastAPI, Celery, Node.js, Express.js} \\
+     \textbf{Frontend}{: React.js, Redux Toolkit, HTML5, CSS3} \\
+     \textbf{Databases}{: PostgreSQL, MongoDB, Redis} \\
+     \textbf{Messaging \& Realtime}{: Apache Kafka, WebSocket (Socket.io)} \\
+     \textbf{AI \& LLM}{: LLM Integration, Text-to-SQL, RAG Pipelines, Prompt Engineering} \\
+     \textbf{DevOps \& Cloud}{: Docker, Nginx, Apache2, AWS, Azure, DigitalOcean, CI/CD (Azure Pipelines)} \\
+     \textbf{Tools}{: Git, Postman, VS Code} \\
+    }}
+ \end{itemize}
+
+\vspace{-14pt}
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{digiSOP — Digital SOP Management Tool} $|$ \emph{FastAPI, React.js, PostgreSQL, Redis, Celery}}{KPMG India}
+      \resumeItemListStart
+        \resumeItem{Built end-to-end solo — a production-grade platform to author, version, and distribute Standard Operating Procedures digitally, replacing manual paper-based workflows.}
+        \resumeItem{Implemented multi-stage approval chains with role-based access, user request management, and version control — ensuring every SOP change is tracked and auditable.}
+        \resumeItem{Built RACI matrix tracking and reader acknowledgement system — ensuring accountability across process owners, contributors, and readers.}
+        \resumeItem{Async background processing via Celery + Redis for notifications and approval triggers; POC successfully converted into a client-adopted product.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\vspace{-10pt}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Science (BSc) — Mathematics \& Computer Application}{Nov 2020 -- Jun 2023}
+      {Shiv Harsh Kisan Degree College Basti}{Basti, India}
+  \resumeSubHeadingListEnd
+\vspace{0pt}
+
+\end{document}
