@@ -21,10 +21,11 @@ export const experiences = [
     id: 2,
     company: "AutoPeepal Technologies Pvt. Ltd",
     role: "MERN Stack Developer",
-    project: "Vehicle Telematics Platform (Wikitrac)",
+    project: "Vehicle Telematics Platform (Wikitrac) — formerly Enata Pvt Ltd",
     location: "Pune, India",
     period: "Sep 2023 — Jan 2025",
     current: false,
+    awards: ["Outstanding Performer"],
     highlights: [
       "Built real-time GPS ingestion pipeline processing 2,000+ events/sec using Apache Kafka with 3 independent consumers",
       "Designed WebSocket live dashboard (Socket.io + Redis pub/sub) supporting 500+ concurrent users",

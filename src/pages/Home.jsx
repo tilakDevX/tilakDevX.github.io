@@ -3,6 +3,8 @@ import Footer from '../components/layout/Footer'
 import Hero from '../components/sections/Hero'
 import WhatIBuild from '../components/sections/WhatIBuild'
 import Experience from '../components/sections/Experience'
+import AwardsSection from '../components/sections/Awards'
+import Education from '../components/sections/Education'
 import Projects from '../components/sections/Projects'
 import CaseStudies from '../components/sections/CaseStudies'
 import Skills from '../components/sections/Skills'
@@ -17,6 +19,8 @@ export default function Home() {
       <Hero />
       <WhatIBuild />
       <Experience />
+      <AwardsSection />
+      <Education />
       <Projects />
       <CaseStudies />
       <Skills />

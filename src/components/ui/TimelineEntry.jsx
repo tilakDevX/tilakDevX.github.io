@@ -35,7 +35,17 @@ export default function TimelineEntry({ experience, index }) {
         ))}
       </ul>
 
-      <div className="flex flex-wrap gap-2 mt-4">
+      {experience.awards && experience.awards.length > 0 && (
+        <div className="flex flex-wrap gap-2 mt-4">
+          {experience.awards.map((award) => (
+            <span key={award} className="font-mono text-[11px] text-amber bg-amber/10 px-2 py-0.5 rounded-full border border-amber/20 inline-flex items-center gap-1">
+              {'\uD83C\uDFC6'} {award}
+            </span>
+          ))}
+        </div>
+      )}
+
+      <div className="flex flex-wrap gap-2 mt-3">
         {experience.tags.map((tag) => (
           <span key={tag} className="font-mono text-[11px] text-text-secondary/60 bg-navy/30 px-2 py-0.5 rounded-full border border-border/50">
             {tag}
