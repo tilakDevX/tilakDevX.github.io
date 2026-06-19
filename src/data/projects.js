@@ -38,7 +38,7 @@ export const projects = [
   {
     id: 3,
     title: "Digital SOP Management Tool",
-    subtitle: "digiSOP",
+    subtitle: "SOP Management Platform",
     badge: "POC → Product",
     badgeColor: "violet",
     description: "Built end-to-end solo — a platform to author, version, and distribute Standard Operating Procedures digitally. Multi-stage approval chains, RACI matrix tracking, and visual flowchart integration. POC converted into a client-adopted product.",
