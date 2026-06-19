@@ -15,6 +15,9 @@ const portfolio = {
   resumeUrl: "/resume.pdf",
   ogImage: "/og-image.png",
 
+  heroEyebrow: "Available for opportunities",
+  contactMessage: "Whether you're hiring, have a project in mind, or just want to connect — my inbox is open.",
+
   terminalLines: [
     "> initializing portfolio...",
     "> name: Tilak Ram",

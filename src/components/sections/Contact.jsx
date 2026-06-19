@@ -26,7 +26,7 @@ export default function Contact() {
         <h2 className="font-display text-3xl md:text-4xl font-bold text-text-primary mt-2 mb-6">Get In Touch</h2>
 
         <p className="font-body text-text-secondary leading-relaxed mb-10 max-w-lg mx-auto">
-          Whether you're hiring, have a project in mind, or just want to connect — my inbox is open.
+          {portfolio.contactMessage}
         </p>
 
         <div className="flex flex-col items-center gap-4">
@@ -36,11 +36,11 @@ export default function Contact() {
           </a>
           <a href={portfolio.linkedin} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-text-secondary hover:text-cyan transition-colors group">
             <LinkedinIcon className="w-5 h-5 group-hover:scale-110 transition-transform" />
-            <span className="font-body text-base">linkedin.com/in/tilakdevx</span>
+            <span className="font-body text-base">{portfolio.linkedin.replace('https://www.', '')}</span>
           </a>
           <a href={portfolio.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-text-secondary hover:text-cyan transition-colors group">
             <GithubIcon className="w-5 h-5 group-hover:scale-110 transition-transform" />
-            <span className="font-body text-base">github.com/tilakDevX</span>
+            <span className="font-body text-base">{portfolio.github.replace('https://', '')}</span>
           </a>
           {portfolio.phone && (
             <a href={`tel:${portfolio.phone}`} className="inline-flex items-center gap-3 text-text-secondary hover:text-cyan transition-colors group">

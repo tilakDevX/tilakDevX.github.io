@@ -1,5 +1,6 @@
 import { GitHubCalendar } from 'react-github-calendar'
 import SectionLabel from '../ui/SectionLabel'
+import portfolio from '../../config/portfolio'
 
 export default function GitHub() {
   return (
@@ -11,7 +12,7 @@ export default function GitHub() {
         </div>
 
         <div className="bg-slate rounded-2xl border border-border p-6 md:p-8 overflow-x-auto flex justify-center">
-          <GitHubCalendar username="tilakDevX" />
+          <GitHubCalendar username={portfolio.githubUsername} />
         </div>
       </div>
     </section>
