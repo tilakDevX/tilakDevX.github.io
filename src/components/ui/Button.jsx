@@ -14,6 +14,8 @@ export default function Button({ children, href, to, variant = 'primary', classN
   }
 
   if (href) {
+    const isAnchor = href.startsWith('#')
+
     if (download) {
       const handleDownload = (e) => {
         e.preventDefault()
@@ -25,6 +27,11 @@ export default function Button({ children, href, to, variant = 'primary', classN
       }
       return <a href={href} onClick={handleDownload} className={classes} {...rest}>{children}</a>
     }
+
+    if (isAnchor) {
+      return <a href={href} className={classes} {...rest}>{children}</a>
+    }
+
     return <a href={href} target="_blank" rel="noopener noreferrer" className={classes} {...rest}>{children}</a>
   }
 
