@@ -41,7 +41,7 @@ export const projects = [
     subtitle: "SOP Management Platform",
     badge: "POC → Product",
     badgeColor: "violet",
-    description: "Built end-to-end solo — a platform to author, version, and distribute Standard Operating Procedures digitally. Multi-stage approval chains, RACI matrix tracking, and visual flowchart integration. POC converted into a client-adopted product.",
+    description: "Built end-to-end solo — a platform to author, version, and distribute Standard Operating Procedures digitally. Multi-stage approval chains, RACI matrix tracking, and visual flowchart integration.", // POC converted into a client-adopted product.
     highlights: [
       "Solo end-to-end build",
       "Multi-stage approval chain with version control",
